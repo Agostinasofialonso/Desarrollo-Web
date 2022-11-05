@@ -12,22 +12,27 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="ul">
-                <li></li>
-                <li><a href="./index.html">Inicio</a></li>
-                <li> | </li>
-                <li><a href="./pages/clases.html">Clases</a></li>
-                <li> | </li>
-                <li><a href="./pages/inscripción.html">Inscripción</a></li>
-                <li> | </li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li> | </li>
-                <li><a href="./pages/ubicación.html">Ubicación</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand ms-5 pe-5" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav"> 
+                <a class="nav-link ms-5 pe-5" aria-current="page" href="./pages/clases.html">Clases</a>
+                <a class="nav-link ms-5 pe-5" href="./pages/inscripción.html">Inscripción</a>
+                <a class="nav-link ms-5 pe-5" href="./pages/nosotros.html">Nosotros</a>
+                <a class="nav-link ms-5 pe-5" href="./pages/ubicación.html">Ubicación</a>
+                </div>
+            </div>
+            </div>
         </nav>
+        
         <section class="logolead">
-            <img class="logo" src="./img/Logo.png" alt="logo"> 
+            <a href="#">
+                <img class= "logos__img" src="./img/Logo.png" >
+            </a>
             <p class="lead">"DONDE EL LUJO Y EL FITNESS SE ENCUENTRAN"</p> 
         </section> 
     </header>
@@ -58,7 +63,11 @@
     <footer>
         <section>
             <p class="footertexto">¿Necesitas más información?</p>
-            <a href="https://api.whatsapp.com/send?phone=542615372590"><img class="imagenfooter" src="./img/Icon wp.png" alt="imagenwhatsap"></a> 
+            <a href="https://api.whatsapp.com/send?phone=542615372590"><img class="imagenfooter" src="./img/whatsapp.png" alt="imagenwhatsap"></a> 
+            <a href="https://www.facebook.com/clubmetropolitan"><img class="imagenfooter" src="./img/facebook.png" alt="imagenfacebook"></a> 
+            <a href="https://www.instagram.com/altafitgimnasios/"><img class="imagenfooter" src="./img/instagram.png" alt="imageninstagram"></a>
+            <a href="https://twitter.com/altafit"><img class="imagenfooter" src="./img/twitter.png" alt="imagentwitter"></a>
+            <a href="https://www.youtube.com/user/clubmetropolitan"><img class="imagenfooter" src="./img/youtube.png" alt="imagenyoutube"></a>
             <p class="footertexto1">fitnessgroupconsultas@gmail.com</p>
         </section>
 	</footer>

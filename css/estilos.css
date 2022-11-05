@@ -6,27 +6,14 @@
 .body{
     background-color: rgb(200, 200, 200);
 }
-ul{
-    display: flex;/*display: flex; sin esto más de box modeline, pero me gusto más con*/
-    text-align: right;
-    justify-content: space-evenly;/*justify-content: space-between;*/
-    padding: 1vw;
-    max-width: 50vw;/*max-width: 500px;*/
-    margin: 0 auto;  
-    flex-direction: row;
-}
-ul li{ 
-    list-style: none; 
-}
-ul li a{
-    text-decoration: none; 
-    color: rgba(70, 68, 68, 0.89);
-    font-size: 1.8vw;
+.container-fluid a{
+    font-size: 1.3rem;
+
 }
 .lead{ 
     color: rgb(88, 88, 88); 
     font-weight: 6.25vw; 
-    font-size: 1.5vw; 
+    font-size: 1rem; 
     font-style:italic; 
     text-align: center;
     font-family: 'Roboto Slab', 
@@ -58,7 +45,7 @@ h1{
     width: fit-content; 
     height: fit-content;
     margin-left: 2vw; 
-    font-size: 1.5vw; 
+    font-size: 1.2rem; 
     text-align:justify; 
     padding: 5vw; align-self: center;
 }
@@ -82,7 +69,7 @@ strong{
 }
 .textocarousel{
     color: rgb(71, 71, 71); 
-    font-size: 1.5vw;
+    font-size: 1rem;
     font-weight: 1vw;
     text-align: justify center;
     background-color: rgb(145, 145, 145);
@@ -94,7 +81,7 @@ strong{
     -webkit-text-stroke-color: #ffffff;
 }
 .formulario{
-    font-size: 1.5vw;
+    font-size: 1rem;
     background-color: rgb(176, 176, 176);
     width: 50%;
     display: flex; 
@@ -109,10 +96,16 @@ strong{
 .textoNosotros{
     text-align: center;
     text-align: justify;
-    font-size: 1.5vw; 
+    font-size: 1.2rem; 
     padding: 2.5vw; 
     background-image: linear-gradient(rgb(255, 255, 255),grey) 
 } 
+.carousel1{
+    width: 85%;
+    padding-top: 3vw ;
+    padding-bottom: 3vw;
+    margin: 0 auto;
+}
 .video{
     display: flex; 
     flex-direction: column;
@@ -128,7 +121,7 @@ strong{
     flex-direction: column; 
 }
 .ubicaciontotal address{
-    font-size: 1.5vw; 
+    font-size: 1rem; 
     text-align: justify;
     padding-left: 2vw;
 }
@@ -136,9 +129,7 @@ strong{
     margin: 0 auto; 
     padding: 3vw;
 }
-.wp{
-    width: 0.5vw;
-}
+
 footer{
     margin-top: 4vw;
     background-color: grey;
@@ -149,12 +140,12 @@ footer{
     justify-content: space-evenly;
 }
 .footertexto{
-    font-size: 2vw;
+    font-size: 1.5rem;
     font-weight: 2vw; 
     color: rgb(255, 255, 255); 
 }
 .footertexto1{
-    font-size: 2vw;
+    font-size: 1.5rem;
     font-weight: 2vw; 
     color: rgb(255, 255, 255); 
     margin-bottom: 2vw;
@@ -163,22 +154,20 @@ footer{
     width: 4vw;
 }
 @media screen and (max-width: 576px) {
-ul li a{
-    font-size: 3vw; padding: 1vw;
-    } 
+
 .secciones{
     flex-direction: column;
     padding:2vw 4vw 0.5vw 0 ;
 }
 .secciones p{
-    font-size: 4vw;
+    font-size: 1.2rem;
 }
 .secciones1{
     flex-direction: column-reverse;
     padding:2vw 4vw 0.5vw 0 ;
 }
 .secciones1 p{
-    font-size: 4vw;
+    font-size: 1.2rem;
 }
 .secciones img {
     align-self: center;
@@ -193,32 +182,39 @@ ul li a{
     width: 70vw;
 }
 .textocarousel{ 
-    font-size: 2.5vw;
+    font-size: 0.8rem;
     font-weight: 2vw;
 }
 .titulocarousel{
     -webkit-text-stroke-width: 0.09vw; 
 }
 .formulario{
-    font-size: 2.5vw;
+    font-size: 1rem;
 }
 .textoNosotros{
-    font-size: 3vw; padding: 3vw;
+    font-size: 1.3rem;
+    padding: 3vw;
 }
 .video{ 
     padding: 7vw;
 }
 .ubicaciontotal address{
-    font-size: 3vw; 
+    font-size: 1.4rem; 
 }
 .ubicaciontotal iframe {
     width: 70vw;
 }
 .footertexto{
-    font-size: 2.5vw;
+    font-size: 0.8rem;
     font-weight: 2.5vw;
+    padding-top: 11vw;
+}
+.footertexto1{
+    font-size: 0.8rem;
+    padding-bottom: 8vw;
 }
 .imagenfooter{
-    width: 5vw;
+    width: 4vw;
+    padding-bottom: 1vw;
 }
 }
