@@ -1,0 +1,83 @@
+@media screen and (max-width: 576px) {
+	.secciones {
+		flex-direction: column;
+		padding: 2vw 4vw 0.5vw 0;
+
+		p {
+			font-size: 1.2rem;
+		}
+
+		img {
+			align-self: center;
+		}
+	}
+
+	.secciones1 {
+		flex-direction: column-reverse;
+		padding: 2vw 4vw 0.5vw 0;
+
+		p {
+			font-size: 1.2rem;
+		}
+
+		img {
+			align-self: center;
+		}
+	}
+
+	.foto2 {
+		width: 70vw;
+	}
+
+	.foto1 {
+		width: 70vw;
+	}
+
+	.textocarousel {
+		font-size: 0.8rem;
+		font-weight: 2vw;
+	}
+
+	.titulocarousel {
+		-webkit-text-stroke-width: 0.09vw;
+	}
+
+	.formulario {
+		font-size: 1rem;
+	}
+
+	.textoNosotros {
+		font-size: 1.3rem;
+		padding: 3vw;
+	}
+
+	.video {
+		padding: 7vw;
+	}
+
+	.ubicaciontotal {
+		address {
+			font-size: 1.4rem;
+		}
+
+		iframe {
+			width: 70vw;
+		}
+	}
+
+	.footertexto {
+		font-size: 0.8rem;
+		font-weight: 2.5vw;
+		padding-top: 11vw;
+	}
+
+	.footertexto1 {
+		font-size: 0.8rem;
+		padding-bottom: 8vw;
+	}
+
+	.imagenfooter {
+		width: 4vw;
+		padding-bottom: 1vw;
+	}
+}
