@@ -18,6 +18,7 @@ h1 {
 .logolead {
   display: flex;
   flex-direction: row;
+  width: 90%;
 }
 
 .secciones {
@@ -73,70 +74,6 @@ footer {
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 576px) {
-  .secciones {
-    flex-direction: column;
-    padding: 2vw 4vw 0.5vw 0;
-  }
-  .secciones p {
-    font-size: 1.2rem;
-  }
-  .secciones img {
-    align-self: center;
-  }
-  .secciones1 {
-    flex-direction: column-reverse;
-    padding: 2vw 4vw 0.5vw 0;
-  }
-  .secciones1 p {
-    font-size: 1.2rem;
-  }
-  .secciones1 img {
-    align-self: center;
-  }
-  .foto2 {
-    width: 70vw;
-  }
-  .foto1 {
-    width: 70vw;
-  }
-  .textocarousel {
-    font-size: 0.8rem;
-    font-weight: 2vw;
-  }
-  .titulocarousel {
-    -webkit-text-stroke-width: 0.09vw;
-  }
-  .formulario {
-    font-size: 1rem;
-  }
-  .textoNosotros {
-    font-size: 1.3rem;
-    padding: 3vw;
-  }
-  .video {
-    padding: 7vw;
-  }
-  .ubicaciontotal address {
-    font-size: 1.4rem;
-  }
-  .ubicaciontotal iframe {
-    width: 70vw;
-  }
-  .footertexto {
-    font-size: 0.8rem;
-    font-weight: 2.5vw;
-    padding-top: 11vw;
-  }
-  .footertexto1 {
-    font-size: 0.8rem;
-    padding-bottom: 8vw;
-  }
-  .imagenfooter {
-    width: 4vw;
-    padding-bottom: 1vw;
-  }
-}
 h1:hover {
   font-weight: bold;
   background-color: rgb(215, 213, 213);
@@ -256,4 +193,85 @@ strong {
   font-weight: 2vw;
   color: rgb(255, 255, 255);
   margin-bottom: 2vw;
+}
+
+@media screen and (max-width: 576px) {
+  .logolead {
+    max-width: 10%;
+  }
+  .secciones {
+    flex-direction: column;
+    padding: 2vw 4vw 0.5vw 0;
+  }
+  .secciones p {
+    font-size: 1.2rem;
+  }
+  .secciones img {
+    align-self: center;
+  }
+  .secciones1 {
+    flex-direction: column-reverse;
+    padding: 2vw 4vw 0.5vw 0;
+  }
+  .secciones1 p {
+    font-size: 1.2rem;
+  }
+  .secciones1 img {
+    align-self: center;
+  }
+  .foto2 {
+    width: 70vw;
+  }
+  .foto1 {
+    width: 70vw;
+  }
+  .textocarousel {
+    font-size: 0.6rem;
+    font-weight: 2vw;
+  }
+  .titulocarousel {
+    -webkit-text-stroke-width: 0.09vw;
+  }
+  .formulario {
+    font-size: 1rem;
+  }
+  .textoNosotros {
+    font-size: 1.3rem;
+    padding: 3vw;
+    margin-left: 1.1vw;
+    margin-right: 1.1vw;
+  }
+  .video {
+    padding: 7vw;
+  }
+  .ubicaciontotal address {
+    font-size: 1rem;
+    margin-left: 1.2vw;
+  }
+  .ubicaciontotal iframe {
+    width: 80%;
+    height: 100%;
+    margin: 10%;
+    justify-content: center;
+  }
+  footer {
+    height: 30vw;
+    width: 100%;
+  }
+  .footertexto {
+    font-size: 0.6rem;
+    font-weight: 2.5vw;
+    padding-top: 10vw;
+    justify-content: center;
+  }
+  .footertexto1 {
+    font-size: 0.6rem;
+    padding-bottom: 8vw;
+    justify-content: center;
+  }
+  .imagenfooter {
+    width: 3.5vw;
+    padding-bottom: 1vw;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
